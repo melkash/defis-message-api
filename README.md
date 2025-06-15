@@ -84,3 +84,13 @@ Développée en Node.js, Express et MongoDB.
 git clone https://github.com/melkash/defis-message-api.git
 cd defis-message-api
 npm install
+```
+## 📁 Configuration (.env)
+
+Crée un fichier `.env` à la racine avec les variables suivantes :
+
+```env
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+```
+
