@@ -24,6 +24,11 @@ app.use('/api/messages', messageRoutes);
 app.use('/api/challenges', challengeRoutes);
 app.use('/api/participations', participationRoutes);
 
+// Défintion de la route d'accueil
+app.get('/', (req, res) => {
+  res.send("Bienvenue sur l'API Défis & Messages PRO !")
+})
+
 // Connexion à MongoDB (version moderne)
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('✅ Connecté à MongoDB'))
