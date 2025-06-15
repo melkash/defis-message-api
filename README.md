@@ -3,6 +3,8 @@
 API professionnelle de gestion de défis et de messagerie en temps réel.  
 Développée en Node.js, Express et MongoDB.
 
+🔗 [API en ligne disponible ici](https://defis-message-api.onrender.com/)
+
 ---
 
 ## 🚀 Fonctionnalités principales
@@ -23,11 +25,11 @@ Développée en Node.js, Express et MongoDB.
 
 ## 🛠️ Stack technique
 
-- **Backend** : Node.js + Express
-- **Base de données** : MongoDB Atlas + Mongoose
-- **Authentification** : JWT + bcrypt
-- **Déploiement** : Render
-- **Autres** : dotenv, cors, date-fns
+- **Backend** : Node.js + Express  
+- **Base de données** : MongoDB Atlas + Mongoose  
+- **Authentification** : JWT + bcrypt  
+- **Déploiement** : Render  
+- **Autres** : dotenv, cors, date-fns  
 
 ---
 
