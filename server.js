@@ -25,7 +25,7 @@ app.use('/api/messages', messageRoutes);
 app.use('/api/challenges', challengeRoutes);
 app.use('/api/participations', participationRoutes);
 
-// Défintion de la route d'accueil
+// Définition de la route d'accueil
 app.get('/', (req, res) => {
   res.send(`
     <h1>Bienvenue sur l'API Défis & Messages PRO !</h1>
