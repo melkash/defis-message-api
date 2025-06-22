@@ -7,6 +7,11 @@ Développée en Node.js, Express et MongoDB.
 
 ---
 
+### ✳️ À savoir
+> Cette API est exclusivement backend (pas de frontend).  
+> L’URL de démo ci-dessus retourne simplement un message texte pour confirmer que l’API est active.  
+> Pour tester les routes, utilisez Postman ou un outil similaire.
+
 ## 🚀 Fonctionnalités principales
 
 ✅ Authentification sécurisée (JWT)  
