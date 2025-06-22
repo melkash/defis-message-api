@@ -27,8 +27,14 @@ app.use('/api/participations', participationRoutes);
 
 // Défintion de la route d'accueil
 app.get('/', (req, res) => {
-  res.send("Bienvenue sur l'API Défis & Messages PRO !")
-})
+  res.send(`
+    <h1>Bienvenue sur l'API Défis & Messages PRO !</h1>
+    <p>⚙️ Cette API n'a pas d'interface graphique (frontend).</p>
+    <p>🧠 Pour explorer le backend, cliquez sur le bouton "Code source" dans mon portfolio.</p>
+    <p>📬 Vous pouvez aussi tester les routes avec un outil comme <strong>Insomnia</strong>.</p>
+  `);
+});
+
 
 // Connexion à MongoDB (version moderne)
 mongoose.connect(process.env.MONGO_URI)
